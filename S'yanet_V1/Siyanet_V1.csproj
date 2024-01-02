@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{74AA3FFD-8549-4636-BF4B-CF97F6721F6F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>S_yanet_V1</RootNamespace>
+    <AssemblyName>S%27yanet_V1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.5, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.8.5\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="fileEncryption1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fileEncryption1.Designer.cs">
+      <DependentUpon>fileEncryption1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fileUrlScan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fileUrlScan.Designer.cs">
+      <DependentUpon>fileUrlScan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="girisYap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="girisYap.Designer.cs">
+      <DependentUpon>girisYap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="icerik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="icerik.Designer.cs">
+      <DependentUpon>icerik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kayitOl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kayitOl.Designer.cs">
+      <DependentUpon>kayitOl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lisans_Kontrol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lisans_Kontrol.Designer.cs">
+      <DependentUpon>Lisans_Kontrol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="portAcKapa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="portAcKapa.Designer.cs">
+      <DependentUpon>portAcKapa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="portTarama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="portTarama.Designer.cs">
+      <DependentUpon>portTarama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="subdomainTarama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="subdomainTarama.Designer.cs">
+      <DependentUpon>subdomainTarama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UnutulanAnahtar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnutulanAnahtar.Designer.cs">
+      <DependentUpon>UnutulanAnahtar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VirusTotalScanner.cs" />
+    <Compile Include="xssTarama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="xssTarama.Designer.cs">
+      <DependentUpon>xssTarama.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="fileEncryption1.resx">
+      <DependentUpon>fileEncryption1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fileUrlScan.resx">
+      <DependentUpon>fileUrlScan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="girisYap.resx">
+      <DependentUpon>girisYap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="icerik.resx">
+      <DependentUpon>icerik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kayitOl.resx">
+      <DependentUpon>kayitOl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lisans_Kontrol.resx">
+      <DependentUpon>Lisans_Kontrol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="portAcKapa.resx">
+      <DependentUpon>portAcKapa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="portTarama.resx">
+      <DependentUpon>portTarama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="subdomainTarama.resx">
+      <DependentUpon>subdomainTarama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnutulanAnahtar.resx">
+      <DependentUpon>UnutulanAnahtar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="xssTarama.resx">
+      <DependentUpon>xssTarama.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_image_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_image_logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login41.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login2 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\register1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login51.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arkaplan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arkaplan1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icerik_arka_plan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icerik_arkaplan_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adsız tasarım %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-dark10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_logo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-dark101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-dark10 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Port Scan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xsscan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\webscan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xssscan2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xssscan4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filescan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xssscan5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filencrypt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\firewall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\dunya.mp4" />
+    <None Include="Resources\exit-icon-png-20.jpg" />
+    <None Include="Resources\exit-icon-png-20.png" />
+    <Content Include="Resources\tarama.gif" />
+    <Content Include="Resources\xss_payload.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
