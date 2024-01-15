@@ -50,7 +50,6 @@ namespace S_yanet_V1
             this.txtbxAnahtar = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lblUnutulanAnahtar = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -138,10 +137,10 @@ namespace S_yanet_V1
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Mongolian Baiti", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(20, 19);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(155, 25);
+            this.label4.Size = new System.Drawing.Size(160, 21);
             this.label4.TabIndex = 0;
             this.label4.Text = "Dosya Şifreleme";
             // 
@@ -232,16 +231,18 @@ namespace S_yanet_V1
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Mongolian Baiti", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(25, 19);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(141, 25);
+            this.label2.Size = new System.Drawing.Size(139, 21);
             this.label2.TabIndex = 0;
             this.label2.Text = "Dosya Çözücü";
             // 
             // lblUnutulanAnahtar
             // 
             this.lblUnutulanAnahtar.AutoSize = true;
+            this.lblUnutulanAnahtar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblUnutulanAnahtar.ForeColor = System.Drawing.Color.DarkRed;
             this.lblUnutulanAnahtar.Location = new System.Drawing.Point(286, 312);
             this.lblUnutulanAnahtar.Name = "lblUnutulanAnahtar";
             this.lblUnutulanAnahtar.Size = new System.Drawing.Size(132, 13);
@@ -249,22 +250,12 @@ namespace S_yanet_V1
             this.lblUnutulanAnahtar.Text = "Anahtarınızı mı Unuttunuz?";
             this.lblUnutulanAnahtar.Click += new System.EventHandler(this.lblUnutulanAnahtar_Click);
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(37, 376);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "label5";
-            // 
             // fileEncryption1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(444, 470);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.lblUnutulanAnahtar);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -304,6 +295,5 @@ namespace S_yanet_V1
         private System.Windows.Forms.ProgressBar progressBar20;
         private System.Windows.Forms.TextBox txtbxAnahtar10;
         private System.Windows.Forms.Label lblUnutulanAnahtar;
-        private System.Windows.Forms.Label label5;
     }
 }

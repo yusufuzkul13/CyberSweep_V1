@@ -118,8 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="file-encryption" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-encryption.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Port Scan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Port Scan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit-icon-png-201" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit-icon-png-20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="webscan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\webscan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="login5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\login5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,14 +142,26 @@
   <data name="exit-icon-png-20" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\exit-icon-png-20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="port tarama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\port tarama.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="url-tarama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\url-tarama.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="resized_cybersecurity_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\resized_cybersecurity_image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sudomain-tarama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sudomain-tarama.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Adsız tasarım (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Adsız tasarım (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="login2 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\login2 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="login21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\login21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logo-dark10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo-dark10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="filencrypt" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\filencrypt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,8 +175,17 @@
   <data name="login51" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\login51.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="yazilim-van-logo_transparent1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yazilim-van-logo_transparent1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file-scan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-scan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logo-dark101" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo-dark101.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dalle4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dalle4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user_image_logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_image_logo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,26 +193,32 @@
   <data name="register1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\register1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user_logo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user_logo3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="login21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yazilim-van-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yazilim-van-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="login41" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\login41.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="webscan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\webscan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="user_logo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_logo3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="firewall" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\firewall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logo-dark10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo-dark10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="yazilim-van-logo_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yazilim-van-logo_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="login4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\login4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logo-dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo-dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xss-scan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xss-scan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="firewall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\firewall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="login22" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\login22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,7 +250,7 @@
   <data name="login2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\login2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="exit-icon-png-201" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\exit-icon-png-20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="yazilim-van-logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yazilim-van-logo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

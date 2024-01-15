@@ -35,6 +35,8 @@ namespace S_yanet_V1
             {
                 using (StreamReader sr = new StreamReader(payloadsPath))
                 {
+                    label3.Text = "Taranıyor...";
+                    label3.ForeColor = Color.Green;
                     string payload;
                     while ((payload = sr.ReadLine()) != null)
                     {
@@ -44,13 +46,13 @@ namespace S_yanet_V1
                         if (xssVulnerability)
                         {
                             //listBox1.Items.Add("XSS açığı tespit edildi: " + payload);
-                            richTextBox1.SelectionColor = Color.Green;
+                            richTextBox1.SelectionColor = Color.Red;
                             richTextBox1.AppendText("XSS açığı tespit edildi: " + payload + Environment.NewLine);
                         }
                         else
                         {
                             //listBox1.Items.Add("XSS açığı tespit edilemedi: " + payload);
-                            richTextBox1.SelectionColor = Color.Red;
+                            richTextBox1.SelectionColor = Color.Green;
                             richTextBox1.AppendText("XSS açığı tespit edilemedi: " + payload + Environment.NewLine);
                         }
                     }
@@ -77,5 +79,9 @@ namespace S_yanet_V1
             }
         }
 
+        private void xssTarama_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

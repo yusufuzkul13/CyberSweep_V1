@@ -93,6 +93,16 @@ namespace S_yanet_V1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dalle4 {
+            get {
+                object obj = ResourceManager.GetObject("dalle4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap exit_icon_png_20 {
             get {
                 object obj = ResourceManager.GetObject("exit-icon-png-20", resourceCulture);
@@ -106,6 +116,26 @@ namespace S_yanet_V1.Properties {
         internal static System.Drawing.Bitmap exit_icon_png_201 {
             get {
                 object obj = ResourceManager.GetObject("exit-icon-png-201", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap file_encryption {
+            get {
+                object obj = ResourceManager.GetObject("file-encryption", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap file_scan {
+            get {
+                object obj = ResourceManager.GetObject("file-scan", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,9 +333,49 @@ namespace S_yanet_V1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap port_tarama {
+            get {
+                object obj = ResourceManager.GetObject("port tarama", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap register1 {
             get {
                 object obj = ResourceManager.GetObject("register1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap resized_cybersecurity_image {
+            get {
+                object obj = ResourceManager.GetObject("resized_cybersecurity_image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sudomain_tarama {
+            get {
+                object obj = ResourceManager.GetObject("sudomain-tarama", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap url_tarama {
+            get {
+                object obj = ResourceManager.GetObject("url-tarama", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -353,6 +423,16 @@ namespace S_yanet_V1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap xss_scan {
+            get {
+                object obj = ResourceManager.GetObject("xss-scan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap xsscan {
             get {
                 object obj = ResourceManager.GetObject("xsscan", resourceCulture);
@@ -386,6 +466,46 @@ namespace S_yanet_V1.Properties {
         internal static System.Drawing.Bitmap xssscan5 {
             get {
                 object obj = ResourceManager.GetObject("xssscan5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap yazilim_van_logo {
+            get {
+                object obj = ResourceManager.GetObject("yazilim-van-logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap yazilim_van_logo_transparent {
+            get {
+                object obj = ResourceManager.GetObject("yazilim-van-logo_transparent", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap yazilim_van_logo_transparent1 {
+            get {
+                object obj = ResourceManager.GetObject("yazilim-van-logo_transparent1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap yazilim_van_logo1 {
+            get {
+                object obj = ResourceManager.GetObject("yazilim-van-logo1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -30,6 +30,7 @@ namespace S_yanet_V1
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.btn_Cikis = new System.Windows.Forms.Button();
             this.lblKullaniciAdi = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -46,6 +47,7 @@ namespace S_yanet_V1
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Gray;
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.btn_Cikis);
             this.panel1.Controls.Add(this.lblKullaniciAdi);
             this.panel1.Controls.Add(this.pictureBox2);
@@ -60,21 +62,34 @@ namespace S_yanet_V1
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // button1
+            // 
+            this.button1.BackgroundImage = global::S_yanet_V1.Properties.Resources.file_scan;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Location = new System.Drawing.Point(32, 345);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(120, 40);
+            this.button1.TabIndex = 8;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // btn_Cikis
             // 
-            this.btn_Cikis.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Cikis.BackgroundImage = global::S_yanet_V1.Properties.Resources.exit_icon_png_201;
-            this.btn_Cikis.Location = new System.Drawing.Point(103, 444);
+            this.btn_Cikis.BackColor = System.Drawing.Color.DarkRed;
+            this.btn_Cikis.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Cikis.ForeColor = System.Drawing.Color.White;
+            this.btn_Cikis.Location = new System.Drawing.Point(43, 458);
             this.btn_Cikis.Name = "btn_Cikis";
-            this.btn_Cikis.Size = new System.Drawing.Size(49, 51);
+            this.btn_Cikis.Size = new System.Drawing.Size(100, 28);
             this.btn_Cikis.TabIndex = 7;
+            this.btn_Cikis.Text = "Çıkış Yap";
             this.btn_Cikis.UseVisualStyleBackColor = false;
             this.btn_Cikis.Click += new System.EventHandler(this.btn_Cikis_Click);
             // 
             // lblKullaniciAdi
             // 
             this.lblKullaniciAdi.AutoSize = true;
-            this.lblKullaniciAdi.Location = new System.Drawing.Point(29, 127);
+            this.lblKullaniciAdi.Location = new System.Drawing.Point(40, 129);
             this.lblKullaniciAdi.Name = "lblKullaniciAdi";
             this.lblKullaniciAdi.Size = new System.Drawing.Size(35, 13);
             this.lblKullaniciAdi.TabIndex = 2;
@@ -84,28 +99,30 @@ namespace S_yanet_V1
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImage = global::S_yanet_V1.Properties.Resources.user_logo3;
-            this.pictureBox2.Location = new System.Drawing.Point(32, 20);
+            this.pictureBox2.Location = new System.Drawing.Point(43, 21);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 93);
+            this.pictureBox2.Size = new System.Drawing.Size(100, 92);
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
             // btn_DosyaSifreleme
             // 
-            this.btn_DosyaSifreleme.BackgroundImage = global::S_yanet_V1.Properties.Resources.filencrypt;
-            this.btn_DosyaSifreleme.Location = new System.Drawing.Point(12, 385);
+            this.btn_DosyaSifreleme.BackgroundImage = global::S_yanet_V1.Properties.Resources.file_encryption;
+            this.btn_DosyaSifreleme.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_DosyaSifreleme.Location = new System.Drawing.Point(32, 391);
             this.btn_DosyaSifreleme.Name = "btn_DosyaSifreleme";
-            this.btn_DosyaSifreleme.Size = new System.Drawing.Size(140, 41);
+            this.btn_DosyaSifreleme.Size = new System.Drawing.Size(120, 40);
             this.btn_DosyaSifreleme.TabIndex = 6;
             this.btn_DosyaSifreleme.UseVisualStyleBackColor = true;
             this.btn_DosyaSifreleme.Click += new System.EventHandler(this.btn_DosyaSifreleme_Click);
             // 
             // btn_SubDomainTarama
             // 
-            this.btn_SubDomainTarama.BackgroundImage = global::S_yanet_V1.Properties.Resources.webscan;
-            this.btn_SubDomainTarama.Location = new System.Drawing.Point(12, 214);
+            this.btn_SubDomainTarama.BackgroundImage = global::S_yanet_V1.Properties.Resources.sudomain_tarama;
+            this.btn_SubDomainTarama.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_SubDomainTarama.Location = new System.Drawing.Point(32, 253);
             this.btn_SubDomainTarama.Name = "btn_SubDomainTarama";
-            this.btn_SubDomainTarama.Size = new System.Drawing.Size(140, 41);
+            this.btn_SubDomainTarama.Size = new System.Drawing.Size(120, 40);
             this.btn_SubDomainTarama.TabIndex = 3;
             this.btn_SubDomainTarama.UseVisualStyleBackColor = true;
             this.btn_SubDomainTarama.Click += new System.EventHandler(this.button2_Click);
@@ -113,30 +130,33 @@ namespace S_yanet_V1
             // btn_PortTarama
             // 
             this.btn_PortTarama.BackColor = System.Drawing.Color.Transparent;
-            this.btn_PortTarama.BackgroundImage = global::S_yanet_V1.Properties.Resources.Port_Scan;
-            this.btn_PortTarama.Location = new System.Drawing.Point(12, 157);
+            this.btn_PortTarama.BackgroundImage = global::S_yanet_V1.Properties.Resources.port_tarama;
+            this.btn_PortTarama.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_PortTarama.Location = new System.Drawing.Point(32, 161);
             this.btn_PortTarama.Name = "btn_PortTarama";
-            this.btn_PortTarama.Size = new System.Drawing.Size(140, 41);
+            this.btn_PortTarama.Size = new System.Drawing.Size(120, 40);
             this.btn_PortTarama.TabIndex = 2;
             this.btn_PortTarama.UseVisualStyleBackColor = false;
             this.btn_PortTarama.Click += new System.EventHandler(this.btn_PortTarama_Click);
             // 
             // btn_DosyaTarama
             // 
-            this.btn_DosyaTarama.BackgroundImage = global::S_yanet_V1.Properties.Resources.filescan;
-            this.btn_DosyaTarama.Location = new System.Drawing.Point(12, 328);
+            this.btn_DosyaTarama.BackgroundImage = global::S_yanet_V1.Properties.Resources.url_tarama;
+            this.btn_DosyaTarama.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_DosyaTarama.Location = new System.Drawing.Point(32, 299);
             this.btn_DosyaTarama.Name = "btn_DosyaTarama";
-            this.btn_DosyaTarama.Size = new System.Drawing.Size(140, 38);
+            this.btn_DosyaTarama.Size = new System.Drawing.Size(120, 40);
             this.btn_DosyaTarama.TabIndex = 5;
             this.btn_DosyaTarama.UseVisualStyleBackColor = true;
             this.btn_DosyaTarama.Click += new System.EventHandler(this.btn_DosyaTarama_Click);
             // 
             // btn_XssTarama
             // 
-            this.btn_XssTarama.BackgroundImage = global::S_yanet_V1.Properties.Resources.xssscan5;
-            this.btn_XssTarama.Location = new System.Drawing.Point(12, 271);
+            this.btn_XssTarama.BackgroundImage = global::S_yanet_V1.Properties.Resources.xss_scan;
+            this.btn_XssTarama.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_XssTarama.Location = new System.Drawing.Point(32, 207);
             this.btn_XssTarama.Name = "btn_XssTarama";
-            this.btn_XssTarama.Size = new System.Drawing.Size(140, 40);
+            this.btn_XssTarama.Size = new System.Drawing.Size(120, 40);
             this.btn_XssTarama.TabIndex = 4;
             this.btn_XssTarama.UseVisualStyleBackColor = true;
             this.btn_XssTarama.Click += new System.EventHandler(this.btn_XssTarama_Click);
@@ -180,5 +200,6 @@ namespace S_yanet_V1
         private System.Windows.Forms.Label lblKullaniciAdi;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btn_Cikis;
+        private System.Windows.Forms.Button button1;
     }
 }

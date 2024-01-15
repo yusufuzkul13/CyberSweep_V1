@@ -37,22 +37,23 @@ namespace S_yanet_V1
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.button2 = new System.Windows.Forms.Button();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(112, 9);
+            this.label1.Font = new System.Drawing.Font("Mongolian Baiti", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(113, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(212, 39);
+            this.label1.Size = new System.Drawing.Size(195, 35);
             this.label1.TabIndex = 0;
             this.label1.Text = "XSS Tarama";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(116, 79);
+            this.label2.Location = new System.Drawing.Point(74, 79);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(89, 13);
             this.label2.TabIndex = 1;
@@ -71,9 +72,9 @@ namespace S_yanet_V1
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(103, 95);
+            this.textBox1.Location = new System.Drawing.Point(77, 95);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(121, 20);
+            this.textBox1.Size = new System.Drawing.Size(147, 20);
             this.textBox1.TabIndex = 3;
             // 
             // richTextBox1
@@ -108,12 +109,21 @@ namespace S_yanet_V1
             this.progressBar1.Size = new System.Drawing.Size(231, 23);
             this.progressBar1.TabIndex = 9;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 451);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 13);
+            this.label3.TabIndex = 10;
+            // 
             // xssTarama
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(435, 486);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.vScrollBar1);
@@ -125,6 +135,7 @@ namespace S_yanet_V1
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "xssTarama";
             this.Text = "xssTarama";
+            this.Load += new System.EventHandler(this.xssTarama_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -140,5 +151,6 @@ namespace S_yanet_V1
         private System.Windows.Forms.VScrollBar vScrollBar1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.Label label3;
     }
 }

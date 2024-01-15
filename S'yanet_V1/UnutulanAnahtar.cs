@@ -25,13 +25,9 @@ namespace S_yanet_V1
 
         private void UnutulanAnahtar_Load(object sender, EventArgs e)
         {
-
+            label1.Text = "Tarama Sonuçları";
+            label1.ForeColor = Color.DarkRed;
         }
-
-        //private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
-        //{
-        //    listBox1.ScrollAlwaysVisible = true;
-        //}
         private void BilgileriGetir()
         {
             using (baglan)
@@ -45,6 +41,8 @@ namespace S_yanet_V1
                     komut.Parameters.AddWithValue("@KullaniciAdi", kullaniciAdi);
                     using (SqlDataReader read = komut.ExecuteReader())
                     {
+                        List<string> records = new List<string>();
+
                         while (read.Read())
                         {
                             string username = read["username"].ToString();
@@ -52,13 +50,34 @@ namespace S_yanet_V1
                             string time = read["time"].ToString();
                             string dosyaAdi = read["dosyaAdi"].ToString();
 
-                            listView1.Items.Add($"Kullanıcı Adı: {username}, Anahtar: {key}, Zaman: {time}, Dosya Adı: {dosyaAdi}");
+                            string record = $"Kullanıcı adı: {username}{Environment.NewLine}Anahtar: {key}{Environment.NewLine}Zaman: {time}{Environment.NewLine}Dosya Adı: {dosyaAdi}";
+
+                            records.Add(record);
+                        }
+
+                        textBox1.Text = string.Empty;
+
+                        foreach (string record in records)
+                        {
+                            textBox1.AppendText(record + Environment.NewLine + Environment.NewLine);
                         }
                     }
                 }
 
                 baglan.Close();
             }
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UnutulanAnahtar_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Form goster = new Form();
+            goster.Show();
+            this.Hide();
         }
     }
 }

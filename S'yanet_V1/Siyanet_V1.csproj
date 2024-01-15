@@ -53,11 +53,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Baslangic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Baslangic.Designer.cs">
+      <DependentUpon>Baslangic.cs</DependentUpon>
+    </Compile>
     <Compile Include="fileEncryption1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="fileEncryption1.Designer.cs">
       <DependentUpon>fileEncryption1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fileScan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fileScan.Designer.cs">
+      <DependentUpon>fileScan.cs</DependentUpon>
     </Compile>
     <Compile Include="fileUrlScan.cs">
       <SubType>Form</SubType>
@@ -122,8 +134,14 @@
     <Compile Include="xssTarama.Designer.cs">
       <DependentUpon>xssTarama.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Baslangic.resx">
+      <DependentUpon>Baslangic.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fileEncryption1.resx">
       <DependentUpon>fileEncryption1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fileScan.resx">
+      <DependentUpon>fileScan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fileUrlScan.resx">
       <DependentUpon>fileUrlScan.cs</DependentUpon>
@@ -273,10 +291,22 @@
     <None Include="Resources\firewall.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\yazilim-van-logo1.png" />
+    <None Include="Resources\dalle4.png" />
     <Content Include="Resources\dunya.mp4" />
+    <None Include="Resources\yazilim-van-logo_transparent1.png" />
+    <None Include="Resources\yazilim-van-logo_transparent.png" />
+    <None Include="Resources\yazilim-van-logo.png" />
     <None Include="Resources\exit-icon-png-20.jpg" />
     <None Include="Resources\exit-icon-png-20.png" />
+    <None Include="Resources\port tarama.png" />
+    <None Include="Resources\sudomain-tarama.png" />
+    <None Include="Resources\file-scan.png" />
+    <None Include="Resources\file-encryption.png" />
+    <None Include="Resources\resized_cybersecurity_image.png" />
     <Content Include="Resources\tarama.gif" />
+    <None Include="Resources\xss-scan.png" />
+    <None Include="Resources\url-tarama.png" />
     <Content Include="Resources\xss_payload.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

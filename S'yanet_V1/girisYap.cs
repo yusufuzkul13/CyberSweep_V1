@@ -54,7 +54,7 @@ namespace S_yanet_V1
                             if (string.Equals(girilenSifre, HashlenmisSifre, StringComparison.OrdinalIgnoreCase))
                             {
                                 MessageBox.Show("Giriş başarılı!", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                       
+
                                 guncelKullaniciAdi = txtBoxUser.Text;
                                 var frm = new icerik(guncelKullaniciAdi);
                                 frm.Show();
@@ -72,19 +72,19 @@ namespace S_yanet_V1
                     }
                 }
                 baglan.Close();
-            }
+            }  
         }
         string Sifrele(string sifre)
         {
             using (SHA256 sha256 = SHA256.Create())
             {
-             
+
                 byte[] passwordBytes = Encoding.UTF8.GetBytes(sifre);
 
-                
+
                 byte[] hashedBytes = sha256.ComputeHash(passwordBytes);
 
-              
+
                 return Convert.ToBase64String(hashedBytes);
             }
         }
@@ -97,7 +97,7 @@ namespace S_yanet_V1
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            if(checkBox1.Checked)
+            if (checkBox1.Checked)
             {
                 txtBoxPass.PasswordChar = '\0';
             }

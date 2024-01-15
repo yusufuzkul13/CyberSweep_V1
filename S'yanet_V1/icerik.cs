@@ -33,7 +33,7 @@ namespace S_yanet_V1
 
         private void icerik_Load(object sender, EventArgs e)
         {
-
+            GosterForm(new Baslangic());
         }
 
         private void GosterForm(Form form)
@@ -84,6 +84,11 @@ namespace S_yanet_V1
         private void btn_Cikis_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            GosterForm(new fileScan());
         }
     }
 }
