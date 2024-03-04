@@ -63,7 +63,7 @@
             this.panel1.Controls.Add(this.txtNewPass);
             this.panel1.Cursor = System.Windows.Forms.Cursors.No;
             this.panel1.Font = new System.Drawing.Font("Bahnschrift", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel1.Location = new System.Drawing.Point(294, 2);
+            this.panel1.Location = new System.Drawing.Point(402, 42);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(272, 421);
             this.panel1.TabIndex = 0;
@@ -204,11 +204,11 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Impact", 45F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(12, 42);
+            this.label5.Location = new System.Drawing.Point(34, 61);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(227, 75);
+            this.label5.Size = new System.Drawing.Size(348, 75);
             this.label5.TabIndex = 2;
-            this.label5.Text = "SiyaNET";
+            this.label5.Text = "CyberSweep";
             // 
             // kayitOl
             // 
@@ -217,7 +217,7 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImage = global::S_yanet_V1.Properties.Resources.login_background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(578, 435);
+            this.ClientSize = new System.Drawing.Size(686, 502);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Bahnschrift", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
